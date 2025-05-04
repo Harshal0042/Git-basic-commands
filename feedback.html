@@ -1,0 +1,40 @@
+<!-- feedback.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback - BlueSky School</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>BlueSky School</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="feedback.html" class="active">Feedback</a>
+    </nav>
+  </header>
+
+  <main class="form-container">
+    <h2>Feedback Form</h2>
+    <form action="#" method="post" class="styled-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Your Feedback</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BlueSky School. All rights reserved.</p>
+  </footer>
+</body>
+</html>
