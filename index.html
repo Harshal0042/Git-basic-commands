@@ -3,71 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Modern School</title>
+  <title>Sunrise International School</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Navigation -->
   <header>
-    <div class="container">
-      <h1 class="logo">Modern School</h1>
+    <div class="container nav">
+      <div class="logo">Sunrise<span>School</span></div>
       <nav>
         <ul>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#courses">Courses</a></li>
+          <li><a href="#academics">Academics</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Welcome to Modern School</h2>
-      <p>Empowering students for a better future</p>
-      <a href="#about" class="btn">Learn More</a>
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Bright Minds, Brighter Futures</h1>
+      <p>World-class education for the leaders of tomorrow</p>
+      <a href="#about" class="btn">Explore More</a>
     </div>
   </section>
 
-  <section id="about" class="about">
+  <!-- About Section -->
+  <section id="about" class="section about">
     <div class="container">
-      <h2>About Us</h2>
-      <p>Modern School is committed to academic excellence and holistic development of students. Our experienced faculty and world-class facilities ensure a nurturing environment for every learner.</p>
+      <div class="about-text">
+        <h2>Welcome to Sunrise International School</h2>
+        <p>We believe in nurturing potential and fostering innovation. With top-tier educators, modern infrastructure, and an inclusive ethos, we empower students to excel academically, socially, and globally.</p>
+      </div>
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1601582581332-fd53f82d56d0?auto=format&fit=crop&w=900&q=80" alt="School Building" />
+      </div>
     </div>
   </section>
 
-  <section id="courses" class="courses">
+  <!-- Academics Section -->
+  <section id="academics" class="section academics">
     <div class="container">
-      <h2>Our Courses</h2>
-      <div class="course-list">
-        <div class="course-card">
-          <h3>Science</h3>
-          <p>Hands-on learning and lab-based instruction for curious minds.</p>
+      <h2>Academic Programs</h2>
+      <div class="cards">
+        <div class="card glass">
+          <span class="material-icons">emoji_people</span>
+          <h3>Primary School</h3>
+          <p>Interactive, discovery-based curriculum for foundational development.</p>
         </div>
-        <div class="course-card">
-          <h3>Mathematics</h3>
-          <p>Building strong foundations and problem-solving skills.</p>
+        <div class="card glass">
+          <span class="material-icons">school</span>
+          <h3>Middle Years</h3>
+          <p>Project-based learning with critical thinking and collaboration.</p>
         </div>
-        <div class="course-card">
-          <h3>Arts</h3>
-          <p>Encouraging creativity and expression through visual and performing arts.</p>
+        <div class="card glass">
+          <span class="material-icons">emoji_events</span>
+          <h3>Senior School</h3>
+          <p>Leadership, preparation for competitive exams and global opportunities.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact">
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
     <div class="container">
-      <h2>Contact Us</h2>
-      <p>Email: info@modernschool.edu</p>
-      <p>Phone: +1 234 567 890</p>
-      <p>Address: 123 Learning Avenue, Knowledge City</p>
+      <h2>Get in Touch</h2>
+      <p><strong>Email:</strong> info@sunriseschool.edu</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Location:</strong> Global Avenue, Knowledge City</p>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 Modern School. All rights reserved.</p>
+      <p>&copy; 2025 Sunrise International School. All rights reserved.</p>
     </div>
   </footer>
+
 </body>
 </html>
